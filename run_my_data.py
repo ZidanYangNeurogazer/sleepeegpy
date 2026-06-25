@@ -34,9 +34,9 @@ from sleepeegpy.pipeline import (
 
 # ============================ CONFIG (edit me) ============================ #
 # To switch subjects, change these two lines:
-SUBJECT_CODE = "LM001"
-# Input EEG header file. MNE reads the .eeg and .vmrk siblings automatically.
-PATH_TO_EEG = r"Y:\Nap\data\rawdata\sub-LM001\eeg\sub-LM001_task-nap_eeg.vhdr"
+SUBJECT_CODE = "DUHR006"
+# Input EEG header file — derived automatically from SUBJECT_CODE.
+PATH_TO_EEG = rf"Y:\Nap\data\rawdata\sub-{SUBJECT_CODE}\eeg\sub-{SUBJECT_CODE}_task-nap_eeg.vhdr"
 
 # Outputs go into a per-subject folder: <OUTPUT_BASE_DIR>\<SUBJECT_CODE>\
 OUTPUT_BASE_DIR = r"C:\Users\zy248\Box\Suthana_Lab\Zidan\NapRecording"
